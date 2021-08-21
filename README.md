@@ -29,34 +29,34 @@
 - [x] Aggregation Framework - Parte 1
 - [x] Aggregation Framework - Parte 2
 
-##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS ✔️
+##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS :o:
 - [ ] Node.js - Introdução
 - [ ] Node.js - Fluxo Assíncrono
 - [ ] Testes com NodeJS
 - [ ] Express: HTTP com Node.js
 - [ ] Praticando Express
 
-##### Bloco 27: NodeJS - Camada de Serviço e Arquitetura Rest e Restful ✔️
+##### Bloco 27: NodeJS - Camada de Serviço e Arquitetura Rest e Restful :o:
 - [ ] Introdução - Arquitetura de Software - Camada de Model
 - [ ] Arquitetura de Software - Camada de Controller e Service
 - [ ] Arquitetura Web - Rest e Restful 
 - [ ] Arquitetura de Software - Testando as Camadas
 
-##### Bloco 28: Autenticação e Upload de Arquivos ✔️
+##### Bloco 28: Autenticação e Upload de Arquivos :o:
 - [ ] NodeJS - JWT - (JSON Web Token)
 - [ ] NodeJS - Upload de arquivos com `multer`
-- [ ] NodeJS - Testabdi APIs com Testes de Integração
+- [ ] NodeJS - Testabdi APIs com Testes de Integração 
 
-##### Bloco 29: Deployment ✔️
-- [ ] Introdução/Infraestrutura - Deploy com Heroku
+##### Bloco 29: Deployment :o:
+- [ ] Introdução/Infraestrutura - Deploy com Heroku 
 - [ ] Deploy - Gerenciadores de Processos
 
-##### Bloco 30: Arquitetura: SOLID e ORM ✔️
+##### Bloco 30: Arquitetura: SOLID e ORM :o:
 - [ ] Arquitetura - Princípios SOLID
 - [ ] ORM - Interface da aplicação com o banco de dados
 - [ ] ORM - Associations
 
-##### Bloco 31: Sockets ✔️
+##### Bloco 31: Sockets :o:
 - [ ] Arquitetura de Software - Camada de View
 - [ ] Sockets - TCP/UDP & NET
 - [ ] Sockets - Socket.io
