@@ -1,27 +1,40 @@
-# Front-End 
+# Back-End
 
-##### Bloco 11: Introdução à React ✔️
-- [x] Introdução - Front-end & React
-- [x] Componentes React
+##### Bloco 20: Introdução à SQL ✔️
+- [x] Introdução - Back-end, Bancos de dados relacionais, Banco de Dados SQL 
+- [x] Encontrando dados de forma específica
+- [x] Fintrando dados de forma especifica
+- [x] Manipulando tabelas
 
-##### Bloco 12: Componentes com Estado, Eventos e Formulários com React ✔️
-- [x] Componentes com estado e eventos
-- [x] Formulários no React
+##### Bloco 21: Funções SQL, Joins e Subqueries ✔️
+- [x] Funções mais usadas no SQL
+- [x] Descomplicando JOINs, UNIONs e Subqueries
+- [x] Stored Routines & Stored Functions
 
-##### Bloco 13: Ciclo de Vida de COmponentes e React Router ✔️
-- [x] Ciclo de Vida de Componentes
-- [x] React Router
+##### Bloco 22: Normalização e Modelagem de Banco de Dados ✔️
+- [x] Transformando ideias em um modelo de banco de dados - Parte 1
+- [x] Normalização, Formas Normais e Dumps
+- [x] Transformando ideias em um modelo de banco de dados - Parte 2
 
-##### Bloco 15: Testes automatizados com React Testing Library ✔️
-- [x] RTL - Primeiros passos
-- [x] RTL - Mocks e Inputs
-- [x] RTL - Testando React Router
+##### Bloco 23: Introdução ao MongoDB ✔️
+- [x] Introdução/NoSQL - MongoDB
+- [x] Filter Operators
 
-##### Bloco 16: Gerenciamento de estado com Redux ✔️
-- [x] Introdução ao Redux
-- [x] Usando o Redux no React
-- [x] Usando o Redux no React - Pratica
-- [x] Redux no React - Actions Assíncronas
-- [x] Testes em React-Redux
+##### Bloco 24: UpdatesSimples e Complexos ✔️
+- [x] Updates Simples
+- [x] Updates Complexos - Arrays - Parte 1
+- [x] Updates Complexos - Arrays - Parte 2
 
-Começa Back
+##### Bloco 25: MongoDB: Aggregation FrameWork ✔️
+
+##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS ✔️
+
+##### Bloco 27: NodeJS - Camada de Serviço e Arquitetura Rest e Restful ✔️
+
+##### Bloco 28: Autenticação e Upload de Arquivos ✔️
+
+##### Bloco 29: Deployment ✔️
+
+##### Bloco 30: Arquitetura: SOLID e ORM ✔️
+
+##### Bloco 31: Sockets ✔️
