@@ -26,15 +26,38 @@
 - [x] Updates Complexos - Arrays - Parte 2
 
 ##### Bloco 25: MongoDB: Aggregation FrameWork ✔️
+- [x] Aggregation Framework - Parte 1
+- [x] Aggregation Framework - Parte 2
 
 ##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS ✔️
+- [ ] Node.js - Introdução
+- [ ] Node.js - Fluxo Assíncrono
+- [ ] Testes com NodeJS
+- [ ] Express: HTTP com Node.js
+- [ ] Praticando Express
 
 ##### Bloco 27: NodeJS - Camada de Serviço e Arquitetura Rest e Restful ✔️
+- [ ] Introdução - Arquitetura de Software - Camada de Model
+- [ ] Arquitetura de Software - Camada de Controller e Service
+- [ ] Arquitetura Web - Rest e Restful 
+- [ ] Arquitetura de Software - Testando as Camadas
 
 ##### Bloco 28: Autenticação e Upload de Arquivos ✔️
+- [ ] NodeJS - JWT - (JSON Web Token)
+- [ ] NodeJS - Upload de arquivos com `multer`
+- [ ] NodeJS - Testabdi APIs com Testes de Integração
 
 ##### Bloco 29: Deployment ✔️
+- [ ] Introdução/Infraestrutura - Deploy com Heroku
+- [ ] Deploy - Gerenciadores de Processos
 
 ##### Bloco 30: Arquitetura: SOLID e ORM ✔️
+- [ ] Arquitetura - Princípios SOLID
+- [ ] ORM - Interface da aplicação com o banco de dados
+- [ ] ORM - Associations
 
 ##### Bloco 31: Sockets ✔️
+- [ ] Arquitetura de Software - Camada de View
+- [ ] Sockets - TCP/UDP & NET
+- [ ] Sockets - Socket.io
+- [ ] Sockets - Praticando Socket.io
