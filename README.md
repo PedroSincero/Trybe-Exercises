@@ -20,7 +20,7 @@
 - [x] Introdução/NoSQL - MongoDB
 - [x] Filter Operators
 
-##### Bloco 24: UpdatesSimples e Complexos ✔️
+##### Bloco 24: Updates Simples e Complexos ✔️
 - [x] Updates Simples
 - [x] Updates Complexos - Arrays - Parte 1
 - [x] Updates Complexos - Arrays - Parte 2
