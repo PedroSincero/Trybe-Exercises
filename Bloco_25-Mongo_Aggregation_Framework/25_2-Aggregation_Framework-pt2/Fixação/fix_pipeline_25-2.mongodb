@@ -1,0 +1,136 @@
+// use ('example_db');
+// db.orders.insertMany([
+//   { _id: 1, item: "almonds", price: 12, ordered: 2 },
+//   { _id: 2, item: "pecans", price: 20, ordered: 1 },
+//   { _id: 3, item: "cookies", price: 10, ordered: 60 }
+// ]);
+
+// use ('example_db');
+// db.warehouses.insertMany([
+//   { _id: 1, stock_item: "almonds", warehouse: "A", instock: 120 },
+//   { _id: 2, stock_item: "pecans", warehouse: "A", instock: 80 },
+//   { _id: 3, stock_item: "almonds", warehouse: "B", instock: 60 },
+//   { _id: 4, stock_item: "cookies", warehouse: "B", instock: 40 },
+//   { _id: 5, stock_item: "cookies", warehouse: "A", instock: 80 }
+// ]);
+
+// A operação a seguir junta todos os documentos da coleção orders com a coleção warehouse através do campo item se a quantidade em estoque ( instock ) for suficiente para cobrir a quantidade vendida ( ordered ).
+use ('example_db');
+db.orders.aggregate([{
+  $lookup: {
+    from: "warehouses",
+    let: {
+      order_item: "$item",
+      order_qty: "$ordered"
+    },
+    pipeline: [{
+        $match: {
+          $expr: {
+            $and: [{
+                $eq: ["$stock_item", "$$order_item"]
+              },
+              {
+                $gte: ["$instock", "$$order_qty"]
+              }
+            ]
+          }
+        }
+      },
+      {
+        $project: {
+          stock_item: 0,
+          _id: 0
+        }
+      }
+    ],
+    as: "stockdata"
+  }
+}]);
+
+// Utilizando o banco de dados agg_example , adicione a seguinte collection e faça os exercícios:
+
+use ('test');
+db.clients.insertMany([
+  { name: "Dave America", State: "Florida" },
+  { name: "Ned Flanders", State: "Alasca" },
+  { name: "Mark Zuck", State: "Texas" },
+  { name: "Edna Krabappel", State: "Montana" },
+  { name: "Arnold Schuz", State: "California" },
+  { name: "Lisa Simpson", State: "Florida" },
+  { name: "Barney Gumble", State: "Texas" },
+  { name: "Homer Simpson", State: "Florida" },
+]);
+
+// 1 - Selecione todos os clientes com as suas respectivas transações feitas;
+use ('test');
+db.clients.aggregate([
+  {
+    $lookup: {
+      from: "transactions",
+      let: {
+        clients_name: "$name",
+      },
+      pipeline: [{
+        $match: {
+          $expr: {
+            $eq: ["$from", "$$clients_name"]
+          }
+        }
+      }],
+      as: "transacoes_clients"
+    }
+  }
+]);
+// 2 - Selecione os quatro primeiros clientes com as suas respectivas transações recebidas ordenados pelo estado em ordem alfabética;
+use ('test');
+db.clients.aggregate([
+  {
+    $lookup: {
+      from: "transactions",
+      let: {
+        clients_name: "$name"
+      },
+      pipeline: [{
+        $match: {
+          $expr: {
+            $eq: ["$to", "$$clients_name"]
+          }
+        }
+      }
+      ],
+      as: "transacoes_clients"
+    },
+  },
+  {
+    $sort: {
+      State: 1
+    }
+  },
+  {
+    $limit: 4
+  }
+]);
+// 3 - Selecione todos os cliente do estado da "Florida" e suas respectivas transações recebidas.
+use ('test');
+db.clients.aggregate([
+  {
+    $match: {State: "Florida"}
+  },
+  {
+    $lookup: {
+      from: "transactions",
+      let: {
+        clients_name: "$name"
+      },
+      pipeline: [{
+        $match: {
+          $expr: {
+            $eq: ["$to", "$$clients_name"]
+          }
+        }
+      }],
+      as: "transacoes_clientes"
+    }
+  }
+]);
+
