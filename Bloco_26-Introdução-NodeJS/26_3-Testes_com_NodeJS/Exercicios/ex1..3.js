@@ -10,15 +10,19 @@ describe('1- Testando Função "numb"', () => {
     const result = numb(10)
     expect(result).to.be.a('string')
   });
-  it('1.2 - Ao colocar um numero positivo, numb retorna string "positivo" ?', () => {
+  it('1.2 - ao colocar uma String, numb retorna uma mensagem de erro escrito "o valor deve ser um número" ?', () => {
+    const result = numb('bobo')
+    expect(result).to.be.equal("o valor deve ser um número")
+  });
+  it('1.3 - Ao colocar um numero positivo, numb retorna string "positivo" ?', () => {
     const result = numb(5)
     expect(result).to.be.equal('positivo')
   });
-  it('1.2 - Ao colocar um numero neutro,numb retorna string "neutro" ?', () => {
+  it('1.4 - Ao colocar um numero neutro,numb retorna string "neutro" ?', () => {
     const result = numb(0)
     expect(result).to.be.equal('neutro')
   });
-  it('1.3 - Ao colocar um numero negativo, numb retorna string "negativo" ?', () => {
+  it('1.5 - Ao colocar um numero negativo, numb retorna string "negativo" ?', () => {
     const result = numb(-5)
     expect(result).to.be.equal('negativo')
   });
