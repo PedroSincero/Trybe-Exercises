@@ -9,6 +9,17 @@
 const express = require('express');
 const router = express.Router();
 
+function createToken(length) {
+  let result = '';
+  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const charactersLength = characters.length;
+
+  for (let i = 0; i < length; i+=1) {
+    result += characters.charAt(Math.floor(Math.random() * charactersLength));
+  }
+  return result;
+}
+
 const validateName = (req, res, next) => {
   const { username } = req.body;
   if(!username || username.length < 4) return res.status(400).json({ message: 'Invalid Name'});
@@ -27,7 +38,7 @@ const validatePassword = (req, res, next) => {
   const { password } = req.body;
 
   if(
-    typeof password === 'number' ||
+    typeof password !== 'number' ||
       `${password}`.length <= 3 || 
       `${password}`.length >= 9
     ) return res.status(400).json({ message: 'Invalid Password'});
@@ -37,6 +48,16 @@ const validatePassword = (req, res, next) => {
 router.post('/register', validateName, validateEmail,validatePassword, (req, res) => {
   const { username, email, password } = req.body;
   return res.status(201).json({ message: 'user created'})
+});
+
+router.post('/login', validateEmail,validatePassword, (req, res) => {
+  const {
+    email,
+    password
+  } = req.body;
+  return res.status(200).json({
+    token: createToken(12)
+  })
 });
 
 module.exports = router;
