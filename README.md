@@ -29,7 +29,7 @@
 - [x] Aggregation Framework - Parte 1
 - [x] Aggregation Framework - Parte 2
 
-##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS :o:
+##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS ✔️
 - [x] Node.js - Introdução
 - [x] Node.js - Fluxo Assíncrono
 - [x] Testes com NodeJS
