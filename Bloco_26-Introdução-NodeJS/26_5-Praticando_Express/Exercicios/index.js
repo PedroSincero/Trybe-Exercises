@@ -8,11 +8,22 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-
+const fetch = require("node-fetch");
+const postRouter = require('./postRouter');
+const routerNotFound = require('./routerNotFound');
 const user = require('./user');
+const { isValidToken } = require('./validation');
 const app = express();
 app.use(bodyParser.json());
 
 app.use('/user', user);
+
+app.get('/btc/price', isValidToken, async (req, res) => {
+const result = await fetch('https://api.coindesk.com/v1/bpi/currentprice/BTC.json');
+const jsonResult = await result.json(); 
+res.status(200).json(jsonResult);
+});
+
+app.use('/posts', postRouter);
 
 app.listen(3005, () => console.log('Run server 3005'));

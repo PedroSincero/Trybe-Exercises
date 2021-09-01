@@ -30,11 +30,11 @@
 - [x] Aggregation Framework - Parte 2
 
 ##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS :o:
-- [ ] Node.js - Introdução
-- [ ] Node.js - Fluxo Assíncrono
-- [ ] Testes com NodeJS
-- [ ] Express: HTTP com Node.js
-- [ ] Praticando Express
+- [x] Node.js - Introdução
+- [x] Node.js - Fluxo Assíncrono
+- [x] Testes com NodeJS
+- [x] Express: HTTP com Node.js
+- [x] Praticando Express
 
 ##### Bloco 27: NodeJS - Camada de Serviço e Arquitetura Rest e Restful :o:
 - [ ] Introdução - Arquitetura de Software - Camada de Model
