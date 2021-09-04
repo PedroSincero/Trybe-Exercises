@@ -1,7 +1,7 @@
 // models/Author.js
 
 const connection = require('./connection');
-
+const Author = require('./Author');
 // Cria uma string com o nome completo do autor
 
 // const getNewAuthor = (bookData) => {
@@ -39,7 +39,20 @@ const findByBookId = async (id) => {
   return bookData.map(serialize)
 }
 
+const isValidBook = async (title, author_id) => {
+  if(!title || typeof title !== 'string' || title < 3) return false;
+  if(!author_id || typeof author_id !== 'number' || !(await Author.findById(author_id))) return false;
+  return true;
+};
+
+const createBook = async (title, author_id) => {
+  connection.execute(
+    'INSERT INTO model_example.books (title, author_id) VALUES (?,?)', [title, author_id]
+  );
+}
 module.exports = {
   getAllBooks,
-  findByBookId
+  findByBookId,
+  isValidBook,
+  createBook
 };
