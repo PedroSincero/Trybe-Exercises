@@ -10,9 +10,11 @@ app.post('/user',isValidUser, async (req, res) => {
 
   const result = await createNewUser(firstName, lastName, email, password);
 
-  return res.status(201).json(result);
+  return res.status(201).json({message: 'funciona, passar bem'});
 
 });
+
+app.get('/user', );
 
 const PORT = process.env.PORT || 3001;
 
