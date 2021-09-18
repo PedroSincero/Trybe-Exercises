@@ -36,14 +36,14 @@
 - [x] Express: HTTP com Node.js
 - [x] Praticando Express
 
-##### Bloco 27: NodeJS - Camada de Serviço e Arquitetura Rest e Restful :o:
-- [ ] Introdução - Arquitetura de Software - Camada de Model
-- [ ] Arquitetura de Software - Camada de Controller e Service
-- [ ] Arquitetura Web - Rest e Restful 
-- [ ] Arquitetura de Software - Testando as Camadas
+##### Bloco 27: NodeJS - Camada de Serviço e Arquitetura Rest e Restful ✔️
+- [x] Introdução - Arquitetura de Software - Camada de Model
+- [x] Arquitetura de Software - Camada de Controller e Service
+- [x] Arquitetura Web - Rest e Restful 
+- [x] Arquitetura de Software - Testando as Camadas
 
 ##### Bloco 28: Autenticação e Upload de Arquivos :o:
-- [ ] NodeJS - JWT - (JSON Web Token)
+- [x] NodeJS - JWT - (JSON Web Token)
 - [ ] NodeJS - Upload de arquivos com `multer`
 - [ ] NodeJS - Testabdi APIs com Testes de Integração 
 
