@@ -44,8 +44,8 @@
 
 ##### Bloco 28: Autenticação e Upload de Arquivos :o:
 - [x] NodeJS - JWT - (JSON Web Token)
-- [ ] NodeJS - Upload de arquivos com `multer`
-- [ ] NodeJS - Testabdi APIs com Testes de Integração 
+- [x] NodeJS - Upload de arquivos com `multer`
+- [x] NodeJS - Testabdi APIs com Testes de Integração 
 
 ##### Bloco 29: Deployment :o:
 - [ ] Introdução/Infraestrutura - Deploy com Heroku 
