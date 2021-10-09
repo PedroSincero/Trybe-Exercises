@@ -42,21 +42,21 @@
 - [x] Arquitetura Web - Rest e Restful 
 - [x] Arquitetura de Software - Testando as Camadas
 
-##### Bloco 28: Autenticação e Upload de Arquivos :o:
+##### Bloco 28: Autenticação e Upload de Arquivos ✔️
 - [x] NodeJS - JWT - (JSON Web Token)
 - [x] NodeJS - Upload de arquivos com `multer`
 - [x] NodeJS - Testabdi APIs com Testes de Integração 
 
-##### Bloco 29: Deployment :o:
-- [ ] Introdução/Infraestrutura - Deploy com Heroku 
-- [ ] Deploy - Gerenciadores de Processos
+##### Bloco 29: Deployment ✔️
+- [x] Introdução/Infraestrutura - Deploy com Heroku 
+- [x] Deploy - Gerenciadores de Processos
 
-##### Bloco 30: Arquitetura: SOLID e ORM :o:
-- [ ] Arquitetura - Princípios SOLID
-- [ ] ORM - Interface da aplicação com o banco de dados
-- [ ] ORM - Associations
+##### Bloco 29.2: Arquitetura: SOLID e ORM ✔️
+- [x] Arquitetura - Princípios SOLID
+- [x] ORM - Interface da aplicação com o banco de dados
+- [x] ORM - Associations
 
-##### Bloco 31: Sockets :o:
+##### Bloco 30: Sockets :o:
 - [ ] Arquitetura de Software - Camada de View
 - [ ] Sockets - TCP/UDP & NET
 - [ ] Sockets - Socket.io
