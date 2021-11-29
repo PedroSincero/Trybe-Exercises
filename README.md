@@ -56,8 +56,8 @@
 - [x] ORM - Interface da aplicação com o banco de dados
 - [x] ORM - Associations
 
-##### Bloco 30: Sockets :o:
-- [ ] Arquitetura de Software - Camada de View
-- [ ] Sockets - TCP/UDP & NET
-- [ ] Sockets - Socket.io
-- [ ] Sockets - Praticando Socket.io
+##### Bloco 30: Sockets ✔️
+- [x] Arquitetura de Software - Camada de View
+- [x] Sockets - TCP/UDP & NET
+- [x] Sockets - Socket.io
+- [x] Sockets - Praticando Socket.io
