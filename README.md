@@ -1,63 +1,32 @@
-# Back-End
+# Ciência da Computação
 
-##### Bloco 20: Introdução à SQL ✔️
-- [x] Introdução - Back-end, Bancos de dados relacionais, Banco de Dados SQL 
-- [x] Encontrando dados de forma específica
-- [x] Fintrando dados de forma especifica
-- [x] Manipulando tabelas
+##### Bloco 32: Introdução à SQL :o:
+- [ ] Introdução - Ciência da Computação / Aprendendo Python
+- [ ] Entrada e Saída de Dados
+- [ ] Testes
 
-##### Bloco 21: Funções SQL, Joins e Subqueries ✔️
-- [x] Funções mais usadas no SQL
-- [x] Descomplicando JOINs, UNIONs e Subqueries
-- [x] Stored Routines & Stored Functions
+##### Bloco 33: Programação Orientada a Objetos e Padrões de Projeto :o:
+- [ ] Introdução à programação orientada a objetos
+- [ ] Herança, COmposição e Interfaces
+- [ ] Padrões de Projeto
 
-##### Bloco 22: Normalização e Modelagem de Banco de Dados ✔️
-- [x] Transformando ideias em um modelo de banco de dados - Parte 1
-- [x] Normalização, Formas Normais e Dumps
-- [x] Transformando ideias em um modelo de banco de dados - Parte 2
+##### Bloco 34: Redes e Raspagem de Dados :o:
+- [ ] Arquitetura de redes
+- [ ] Redes de computadores, ferramentas e segurança
+- [ ] Raspagem de Dados
 
-##### Bloco 23: Introdução ao MongoDB ✔️
-- [x] Introdução/NoSQL - MongoDB
-- [x] Filter Operators
+##### Bloco 35: Algoritmos :o:
+- [ ] Complexidade de Algoritmos
+- [ ] Recursividade e Estratégias para solução de problemas
+- [ ] Algoritmos de ordenação e busca
 
-##### Bloco 24: Updates Simples e Complexos ✔️
-- [x] Updates Simples
-- [x] Updates Complexos - Arrays - Parte 1
-- [x] Updates Complexos - Arrays - Parte 2
+##### Bloco 36: Estrutura de Dados I: Arrays, Hashmaps e Sets :o:
+- [ ] Arquitetura de Computadores
+- [ ] Arrays
+- [ ] Hashmap e Dict
+- [ ] Set
 
-##### Bloco 25: MongoDB: Aggregation FrameWork ✔️
-- [x] Aggregation Framework - Parte 1
-- [x] Aggregation Framework - Parte 2
+##### Bloco 37: Estrutura de Dados II: Listas, Filas e Pilhas :o:
+- [ ] Nó e Listas Encadeadas
+- [ ] Pilhas e Filas
 
-##### Bloco 26: Introdução ao Desenvolvimento Web com NodeJS ✔️
-- [x] Node.js - Introdução
-- [x] Node.js - Fluxo Assíncrono
-- [x] Testes com NodeJS
-- [x] Express: HTTP com Node.js
-- [x] Praticando Express
-
-##### Bloco 27: NodeJS - Camada de Serviço e Arquitetura Rest e Restful ✔️
-- [x] Introdução - Arquitetura de Software - Camada de Model
-- [x] Arquitetura de Software - Camada de Controller e Service
-- [x] Arquitetura Web - Rest e Restful 
-- [x] Arquitetura de Software - Testando as Camadas
-
-##### Bloco 28: Autenticação e Upload de Arquivos ✔️
-- [x] NodeJS - JWT - (JSON Web Token)
-- [x] NodeJS - Upload de arquivos com `multer`
-- [x] NodeJS - Testabdi APIs com Testes de Integração 
-
-##### Bloco 29: Deployment ✔️
-- [x] Introdução/Infraestrutura - Deploy com Heroku 
-- [x] Deploy - Gerenciadores de Processos
-
-##### Bloco 29.2: Arquitetura: SOLID e ORM ✔️
-- [x] Arquitetura - Princípios SOLID
-- [x] ORM - Interface da aplicação com o banco de dados
-- [x] ORM - Associations
-
-##### Bloco 30: Sockets :o:
-- [ ] Arquitetura de Software - Camada de View
-- [ ] Sockets - TCP/UDP & NET
-- [ ] Sockets - Socket.io
-- [ ] Sockets - Praticando Socket.io
