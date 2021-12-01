@@ -8,3 +8,7 @@
 # *****
 # 🦜 Dica: Python sabe multiplicar sequências! Por exemplo, 3 * 'bla' resulta em blablabla . Isso se aplica a listas também, caso você precise.
 # Sentiu aí um certo dejavu? 😁
+# https://www.w3schools.com/python/ref_func_range.asp
+def asteriscos(n):
+  for row in range(n):
+    print( n * '*')
