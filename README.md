@@ -1,9 +1,9 @@
 # Ciência da Computação
 
 ##### Bloco 32: Introdução à SQL :o:
-- [ ] Introdução - Ciência da Computação / Aprendendo Python
-- [ ] Entrada e Saída de Dados
-- [ ] Testes
+- [x] Introdução - Ciência da Computação / Aprendendo Python
+- [x] Entrada e Saída de Dados
+- [x] Testes
 
 ##### Bloco 33: Programação Orientada a Objetos e Padrões de Projeto :o:
 - [ ] Introdução à programação orientada a objetos
