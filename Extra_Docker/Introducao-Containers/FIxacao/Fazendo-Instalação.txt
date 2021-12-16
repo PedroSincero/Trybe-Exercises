@@ -1,0 +1,9 @@
+O primeiro passo para utilizar o Docker é realizar a instalação de seu motor , o que nos dará acesso a sua interface de linha de comando (CLI) *.
+* No Linux, o Docker não possui uma interface gráfica de utilização (GUI) oficial, contudo, existem várias opções não-oficiais disponíveis, bem como uma extensão oficial da Microsoft para a plataforma no VSCode , que pode ajudar muito no gerenciamento de seus containers .
+
+>https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+
+Desinstalando versões anteriores
+Caso você já possua alguma versão instalada na sua máquina e queira refazer o processo de instalação desde o princípio por qualquer motivo, seja pra atualizar ou para corrigir algum problema, primeiro você deve remover os pacotes da versão que está na sua máquina. Para isso, utilize o seguinte comando no terminal:
+
+sudo apt-get remove docker* containerd runc

@@ -1,0 +1,9 @@
+Principais comandos do CLI
+Passaremos um resumo do que foi visto até aqui, complementando com comandos adicionais que podem ser utilizados para manipulação de containers no CLI do Docker . Alguns deles devem ser resgatados nos próximos dias.
+Pontos importantes:
+docker <comando> <subcomando> <parâmetros> é o formato padrão para comandos não-abreviados no CLI;
+Utilize o parâmetro --help no <comando> ou <subcomando> para ter a relação completa do que pode ser executado a partir deles;
+Exemplo: docker container --help , ou docker container run --help .
+Os <parâmetros> são opcionais na execução dos comandos;
+O conteúdo faz referência a documentação oficial dos comandos no Docker Docs .
+https://docs.docker.com/engine/reference/commandline/docker/
