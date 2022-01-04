@@ -1,0 +1,7 @@
+Monitorando os processos dentro de um container
+
+O comando top , assim como nos terminais linux, traz as informações sobre os processos que estão sendo rodados, mas dentro daquele container , o que não inclui, por exemplo, serviços que são compartilhados com o sistema hospedeiro. Ele é útil para quando estamos os rodando em segundo plano:
+
+docker container top <CONTAINER ID || NAMES>
+
+Aqui o container é rodado com um comando dd if=/dev/zero of=/dev/null (que no nosso caso, serve para estressar o container ) que gerou um processo, esse que é mostrado na lista de processos.

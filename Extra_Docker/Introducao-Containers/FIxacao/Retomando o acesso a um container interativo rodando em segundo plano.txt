@@ -1,0 +1,12 @@
+Retomando o acesso a um container interativo rodando em segundo plano
+Caso você tenha iniciado um container em segundo plano utilizando -dit , você pode acessar esse container rodando o comando attach :
+
+```
+docker container attach <CONTAINER ID || NAMES>
+```
+
+Abreviação do comando docker container attach <CONTAINER ID || NAMES> :
+
+```
+docker attach <CONTAINER ID || NAMES>
+```

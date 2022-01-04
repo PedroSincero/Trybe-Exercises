@@ -1,0 +1,17 @@
+Se o container não estiver ativo, esse comando deve remover o mesmo:
+
+```
+docker container rm <CONTAINER ID || NAMES>
+```
+
+Se o container estiver ativo, você deve passar o parâmetro -f (forçar) para parar sua execução e depois efetuar a remoção:
+
+```
+docker container rm -f <CONTAINER ID || NAMES>
+```
+
+(Comando antigo) Abreviação do comando docker container rm :
+
+```
+docker rm <CONTAINER ID || NAMES>
+```

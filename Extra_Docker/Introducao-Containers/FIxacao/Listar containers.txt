@@ -1,0 +1,25 @@
+Listar containers
+
+Lista ( ls , list em inglês) todos os containers ativos :
+
+```
+docker container ls
+```
+
+Lista todos os containers ativos e inativos :
+
+```
+docker container ls -a
+```
+
+Lista o último container criado (independente do seu estado) :
+
+```
+docker container ls -l
+```
+
+(Comando antigo) Abreviação do comando docker container ls (que também pode ser chamado como docker container ps ):
+
+```
+docker ps <parâmetro>
+```

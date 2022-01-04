@@ -1,0 +1,19 @@
+Criar um container sem executá-lo
+
+Cria um container com a imagem de referência, mas não o executa imediatamente:
+
+```
+docker container create <parâmetros> <imagem>:<tag>
+```
+
+O parâmetro -it nesse contexto, deve garantir que ao iniciar o container , ele se mantenha ativo e disponha de um terminal de acesso:
+
+```
+docker container create -it <imagem>:<tag>
+```
+
+(Comando antigo) Abreviação do comando docker container create :
+
+```
+docker create <parâmetros> <imagem>:<tag>
+```
