@@ -1,19 +1,19 @@
 # Ciência da Computação
 
-##### Bloco 32: Introdução à SQL :o:
+##### Bloco 32: Introdução à SQL ✔️
 - [x] Introdução - Ciência da Computação / Aprendendo Python
 - [x] Entrada e Saída de Dados
 - [x] Testes
 
-##### Bloco 33: Programação Orientada a Objetos e Padrões de Projeto :o:
-- [ ] Introdução à programação orientada a objetos
-- [ ] Herança, COmposição e Interfaces
-- [ ] Padrões de Projeto
+##### Bloco 33: Programação Orientada a Objetos e Padrões de Projeto ✔️
+- [x] Introdução à programação orientada a objetos
+- [x] Herança, COmposição e Interfaces
+- [x] Padrões de Projeto
 
-##### Bloco 34: Redes e Raspagem de Dados :o:
-- [ ] Arquitetura de redes
-- [ ] Redes de computadores, ferramentas e segurança
-- [ ] Raspagem de Dados
+##### Bloco 34: Redes e Raspagem de Dados ✔️
+- [x] Arquitetura de redes
+- [x] Redes de computadores, ferramentas e segurança
+- [x] Raspagem de Dados
 
 ##### Bloco 35: Algoritmos :o:
 - [ ] Complexidade de Algoritmos
