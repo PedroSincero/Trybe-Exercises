@@ -1,0 +1,3 @@
+# Definição de recursividade
+# Uma função que chama a si mesma é chamada de recursiva. O processo para executar, tal função recursiva, é chamado de recursividade.
+# A recursividade é um dos métodos para a resolução de grandes problemas. Dito isso, um problema submetido, a uma solução recursiva, será quebrado em subproblemas menores até chegar a uma parte tão pequena que o torna possível solucioná-lo trivialmente. Um exemplo visual que podemos relacionar a essa tática de resolução de problema, são as bonecas russas, que dentro de si tem diversas outras bonecas, cada vez menores.
